@@ -44,3 +44,9 @@ form.addEventListener("submit", (e) => {
     input.value = "";
   };
 
+  let deletePost = (e) => {
+    e.parentElement.parentElement.remove();
+  };
+
+
+  let editPost = (e) => {};
