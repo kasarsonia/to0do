@@ -19,7 +19,7 @@ form.addEventListener("submit", (e) => {
       console.log("successs");
       msg.innerHTML = "";
       acceptData();
-      createPost();
+      
     }
   };
 
@@ -28,6 +28,7 @@ form.addEventListener("submit", (e) => {
   let acceptData = () => {
     data["text"] = input.value;
     console.log(data);
+    createPost();
   };
 
   let createPost = () => {
