@@ -54,4 +54,3 @@ form.addEventListener("submit", (e) => {
     e.parentElement.parentElement.remove();
   };
 
-  let editPost = (e) => {};
